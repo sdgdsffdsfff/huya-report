@@ -22,7 +22,7 @@
 
 	huyaReport.report({
         rso: huyaReport.parseQueryString(location.href)['rso'] || "", //外部来源
-        rso_desc: decodeURIComponent(huyaReport.parseQueryString(location.href)['rso_desc']) || "",//外部来源
+        rso_desc: huyaReport.parseQueryString(location.href)['rso_desc'] || "",//外部来源
         eid: "pageview/home",  //产品给的
         eid_desc:"pageview/首页"  //产品给的
     });
