@@ -7,6 +7,7 @@
 
 ##引用js资源
 	
+	//pro="testpas" 产品代号，要产品给
     <script type="text/javascript" src="http://szhuodong.duowan.com/s/rp/ya-huya.min.js" data-fixed="true" pro="testpas" noreport="" id="yaScript"></script>
 
 
